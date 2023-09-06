@@ -1,0 +1,8 @@
+.App.dark {
+  
+    --background-color: black;
+    --text-color: white;
+    --button-back: red;
+    --button-text: white;
+    --title-color:black;
+  }

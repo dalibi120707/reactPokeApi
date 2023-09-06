@@ -1,0 +1,8 @@
+.App.light {
+  
+    --background-color: white;
+    --text-color: black;
+    --button-back: black;
+    --button-text: white;
+    --title-color:white;
+  }

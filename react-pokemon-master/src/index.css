@@ -1,0 +1,91 @@
+
+@import './theme/theme_color/dark.css';
+@import './theme/theme_color/light.css';
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+.btn {
+  background: var(--button-back);
+  color: var(--button-text);;
+  padding: 15px;
+  font-size: 24px;
+  margin-top: 24px;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.pokemon_card ,.sceleton_card{
+  width: 250px;
+  height: 400px;
+  background: var(--button-back);
+  border: 2px solid gray;
+  border-radius: 8px;
+  margin: 10px;
+  background: var(--button-back);
+}
+.pokemon_card>img{
+  width: 250px;
+  height: 195px;
+
+}
+.sceleton_card{
+  background-color: gray;
+  margin-bottom: 10px;
+}
+.infinite-scroll-component, .infinite-scroll-component>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  font-size: 24px;
+  padding: 6px 12px;
+}
+
+input {
+  font-size: 24px;
+  padding: 6px 12px;
+}
+
+.active {
+  border: 2px solid red;
+}
+
+.flex-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  color: var(--title-color);
+}
+
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  color: var(--title-color);
+}
